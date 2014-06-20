@@ -25,6 +25,3 @@ get '/movie' do
   end
   erb :movie
 end
-
-get '/'
-httparty.get('', :timeout => 60)
