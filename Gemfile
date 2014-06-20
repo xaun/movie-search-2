@@ -6,4 +6,5 @@ gem 'httparty'
 
 group :development do
   gem 'pry'
+  gem 'sinatra/reloader'
 end

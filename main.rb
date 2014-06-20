@@ -1,7 +1,5 @@
-require 'pry'
 require 'sinatra'
 require 'httparty'
-
 
 get '/' do
 
