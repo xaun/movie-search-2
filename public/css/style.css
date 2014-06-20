@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+
+html {
+  background: url(http://i.imgur.com/IeUhuHR.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+#container {
+  margin: auto;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+#main {
+  background-color:rgba(0,0,0,0.8);
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 0 30px;
+}
+
+.idlinks {
+  display: block;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  line-height: 1.5em;
+  margin: auto;
+}
+
+div .idlinks:hover {
+  background-color: rgba(40,69,127,0.6);
+  width: 95%;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+div .home {
+  color: white;
+  font-family: 'Rock Salt', cursive;
+  font-size: 2em;
+}
+
+h1 div .home {
+  display: block;
+  background-color: black;
+}
+
+p.error {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color: red;
+  font-size: 1.2em;
+}
+
+img {
+  display: inline-block;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 100px;
+  border: 2px solid black;
+}
+
+button {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 1em;
+  height: 45px;
+  width: 300px;
+  border-radius: 100px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: red;
+  font-weight: bold;
+  border: 3px solid black;
+}
+
+h3 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 2em;
+  color: white;
+}
+
+#movie {
+  display: inline-block;
+  margin: auto;
+}
+
+#movie img {
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
+#movie div {
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(255,250,236,.5);
+  max-width: 300px;
+  max-height: ;
+  padding: 0;
+  border-radius: 0 0 20px 20px;
+}
+
+#movie div p {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  display: block;
+}
+
+em {
+  font-weight: bold;
+}
+
+@media (max-width: 560px) {
+  div .home {
+    font-size: 1.2em;
+  }
+  .idlinks {
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+}
+
+
+

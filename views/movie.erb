@@ -1,0 +1,25 @@
+<div id="movie">
+
+  <img src="<%= @movie["Poster"] %>"/>
+  <div>
+    <p>
+      <em>Directed by..</em><br><%= @movie["Director"] %>.
+    </p>
+    <p>
+      <em>Starring...</em><br> <%= @movie["Actors"] %>.
+    </p>
+    <p>
+      <%= @movie["Runtime"] %>,
+      <%= @movie["Genre"] %>
+      <%= @movie["Year"] %>.
+    </p>
+    <p>
+      <span><%= @movie["Plot"] %></span>
+    </p>
+    <p>
+      <%= @movie["Awards"] %>
+    </p>
+  </div>
+
+
+</div>

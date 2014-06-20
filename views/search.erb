@@ -1,0 +1,23 @@
+
+
+<% if @result && @result['Error'] %>
+  <p class='error'><%= @result['Error'] %></p>
+<% end %>
+
+<% if @result && @result['Search'] %>
+  <% @result['Search'].each do |movie| %>
+    <div>
+      <p><a class="idlinks" href="/movie?id=<%=movie['imdbID']%>"> <%= movie['Title'] %></a></p>
+    </div>
+  <% end %>
+<% end %>
+
+<form action="/" method="gets">
+  <input name="search" placeholder="Movie Title">
+  <button>Search!</button>
+</form>
+
+
+
+
+
